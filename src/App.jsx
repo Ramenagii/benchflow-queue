@@ -1,7 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import heroServiceBench from "../assets/illustrations/hero-service-bench.svg";
 import howItWorks from "../assets/illustrations/section-how-it-works.svg";
 import whatToBring from "../assets/illustrations/section-what-to-bring.svg";
+
+const heroServiceBench =
+  "https://images.unsplash.com/photo-1671040664991-9fb955f53b65?ixlib=rb-4.1.0&auto=format&fit=crop&w=1280&q=85";
 
 const EMPTY_STATE = { events: [], tickets: [], volunteers: [], meta: null };
 const CATEGORIES = ["Electronics", "Small appliances", "Textiles", "Bikes", "Other"];
@@ -369,7 +371,7 @@ function HomePage({ repairEvent, tickets, onNavigate }) {
             </button>
           </div>
         </div>
-        <img className="hero-image" src={heroServiceBench} alt="Illustrated service counter with bike, textile, and electronics repair tickets" />
+        <img className="hero-image" src={heroServiceBench} alt="Bike service workbench with tools and parts ready for repair tickets" />
       </section>
 
       <section className="metric-strip" aria-label="Event snapshot">
