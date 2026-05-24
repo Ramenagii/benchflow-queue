@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.vercel/
+.vite.pid
+.dev.pid
+data/runtime-state.json
+data/runtime-state.json.tmp
+
+.vercel

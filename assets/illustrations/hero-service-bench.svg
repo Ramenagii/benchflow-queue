@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Service bench queue illustration</title>
+  <desc id="desc">Flat vector illustration of a small service business counter with bike, garment, and electronics repair lanes.</desc>
+  <rect width="960" height="540" fill="#FFF8EE"/>
+  <path d="M0 410h960v130H0z" fill="#0B1220"/>
+  <path d="M72 92h500c58 0 104 46 104 104v160H176c-58 0-104-46-104-104V92z" fill="#F2A900" opacity=".18"/>
+  <path d="M118 150h310c33 0 60 27 60 60v92H178c-33 0-60-27-60-60v-92z" fill="#2F6FED" opacity=".14"/>
+  <rect x="86" y="294" width="545" height="116" rx="18" fill="#F2A900" stroke="#0B1220" stroke-width="8"/>
+  <path d="M86 354h545v56H86z" fill="#D24C3A"/>
+  <path d="M174 410h284v28H174z" fill="#7B61FF"/>
+  <rect x="184" y="193" width="132" height="93" rx="12" fill="#FFF8EE" stroke="#0B1220" stroke-width="9"/>
+  <rect x="207" y="214" width="82" height="38" rx="7" fill="#1E9A6D"/>
+  <circle cx="220" cy="269" r="8" fill="#0B1220"/>
+  <circle cx="282" cy="269" r="8" fill="#0B1220"/>
+  <path d="M128 218h82m-41-41v82" fill="none" stroke="#1E9A6D" stroke-width="12" stroke-linecap="round"/>
+  <path d="M358 291l90-90" fill="none" stroke="#0B1220" stroke-width="18" stroke-linecap="round"/>
+  <path d="M430 180l42-42 31 31-42 42z" fill="#8A94A6" stroke="#0B1220" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M478 170h75v46h-75z" fill="#FFF8EE" stroke="#0B1220" stroke-width="8"/>
+  <path d="M553 144c39 0 70 31 70 70s-31 70-70 70v-140z" fill="#2F6FED" stroke="#0B1220" stroke-width="8"/>
+  <path d="M658 170l52 70m0-70l-52 70" stroke="#D24C3A" stroke-width="13" stroke-linecap="round"/>
+  <path d="M92 294c33-52 98-47 121 5l26 58c7 16-1 35-17 42s-35-1-42-17l-18-41-66 19c-28 8-55-17-48-45 4-15 19-25 44-21z" fill="#F6C7A5" stroke="#0B1220" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M372 294c-33-52-98-47-121 5l-26 58c-7 16 1 35 17 42s35-1 42-17l18-41 66 19c28 8 55-17 48-45-4-15-19-25-44-21z" fill="#F6C7A5" stroke="#0B1220" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M708 106h152c24 0 44 20 44 44v116c0 24-20 44-44 44H708c-24 0-44-20-44-44V150c0-24 20-44 44-44z" fill="#FFF8EE" stroke="#0B1220" stroke-width="8"/>
+  <path d="M706 157h95m-95 44h132m-132 44h88" stroke="#8A94A6" stroke-width="8" stroke-linecap="round"/>
+  <path d="M850 105l30-48h42l30 48" fill="none" stroke="#0B1220" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="920" cy="107" r="13" fill="#F2A900"/>
+  <path d="M720 350h178" stroke="#FFF8EE" stroke-width="12" stroke-linecap="round"/>
+  <path d="M744 350l-32 92m164-92l32 92" stroke="#FFF8EE" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="730" cy="442" r="35" fill="#FFF8EE" stroke="#0B1220" stroke-width="10"/>
+  <circle cx="872" cy="442" r="35" fill="#FFF8EE" stroke="#0B1220" stroke-width="10"/>
+  <path d="M730 442l72-92 70 92m-70-92v92" stroke="#0B1220" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M700 68c47-25 102-25 149 0" fill="none" stroke="#1E9A6D" stroke-width="12" stroke-linecap="round"/>
+  <rect x="654" y="333" width="86" height="44" rx="8" fill="#FFF8EE" stroke="#0B1220" stroke-width="8"/>
+  <path d="M674 355h42" stroke="#2F6FED" stroke-width="8" stroke-linecap="round"/>
+  <rect x="516" y="334" width="112" height="58" rx="10" fill="#FFF8EE" stroke="#0B1220" stroke-width="8"/>
+  <path d="M539 363h66" stroke="#1E9A6D" stroke-width="9" stroke-linecap="round"/>
+</svg>

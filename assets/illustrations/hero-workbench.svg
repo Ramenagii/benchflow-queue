@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Community repair workbench illustration</title>
+  <desc id="desc">Flat vector workbench with hands, tools, a lamp, fabric, and small appliance parts.</desc>
+  <rect width="960" height="540" fill="#FFF8EE"/>
+  <path d="M0 416h960v124H0z" fill="#0B1220"/>
+  <path d="M74 116h326c54 0 98 44 98 98v106H174c-55 0-100-45-100-100V116z" fill="#F2A900" opacity=".2"/>
+  <path d="M142 145h236c35 0 64 29 64 64v70H207c-36 0-65-29-65-65v-69z" fill="#2F6FED" opacity=".13"/>
+  <path d="M72 314h542c21 0 38 17 38 38v62H72z" fill="#D24C3A"/>
+  <path d="M72 314h542c21 0 38 17 38 38v18H72z" fill="#F2A900"/>
+  <path d="M164 398h392v24H164z" fill="#7B61FF"/>
+  <rect x="214" y="205" width="126" height="96" rx="12" fill="#FFF8EE" stroke="#0B1220" stroke-width="10"/>
+  <rect x="237" y="226" width="80" height="42" rx="8" fill="#1E9A6D"/>
+  <circle cx="248" cy="286" r="8" fill="#0B1220"/>
+  <circle cx="306" cy="286" r="8" fill="#0B1220"/>
+  <path d="M382 305l95-95" fill="none" stroke="#0B1220" stroke-width="16" stroke-linecap="round"/>
+  <path d="M458 188l44-44 28 28-44 44z" fill="#8A94A6" stroke="#0B1220" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M438 249l-38 38" fill="none" stroke="#2F6FED" stroke-width="14" stroke-linecap="round"/>
+  <path d="M120 256c24-6 51 5 65 27l31 51c8 13 4 31-9 39s-31 4-39-9l-25-41-43 11c-19 5-38-7-43-26s6-47 63-52z" fill="#F6C7A5" stroke="#0B1220" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M432 255c-24-6-51 5-65 27l-31 51c-8 13-4 31 9 39s31 4 39-9l25-41 43 11c19 5 38-7 43-26s-6-47-63-52z" fill="#F6C7A5" stroke="#0B1220" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M103 336l103-25" fill="none" stroke="#0B1220" stroke-width="7" stroke-linecap="round"/>
+  <path d="M452 336l-103-25" fill="none" stroke="#0B1220" stroke-width="7" stroke-linecap="round"/>
+  <path d="M116 179h74m-42-35v70" fill="none" stroke="#1E9A6D" stroke-width="12" stroke-linecap="round"/>
+  <path d="M598 132c23 0 42 19 42 42s-19 42-42 42h-18v-84z" fill="#2F6FED" stroke="#0B1220" stroke-width="8"/>
+  <path d="M580 156h-54v36h54" fill="#FFF8EE" stroke="#0B1220" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M708 144l-52 70m52 0l-52-70" stroke="#D24C3A" stroke-width="14" stroke-linecap="round"/>
+  <path d="M763 168h72c14 0 25 11 25 25v87c0 14-11 25-25 25h-72c-14 0-25-11-25-25v-87c0-14 11-25 25-25z" fill="#FFF8EE" stroke="#0B1220" stroke-width="8"/>
+  <path d="M762 221h76M762 254h52" stroke="#8A94A6" stroke-width="8" stroke-linecap="round"/>
+  <path d="M772 144l20-32h41l20 32" fill="none" stroke="#0B1220" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M678 314h186" stroke="#0B1220" stroke-width="12" stroke-linecap="round"/>
+  <path d="M704 314l-30 86m165-86l30 86" stroke="#0B1220" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="722" cy="400" r="34" fill="#FFF8EE" stroke="#0B1220" stroke-width="10"/>
+  <circle cx="842" cy="400" r="34" fill="#FFF8EE" stroke="#0B1220" stroke-width="10"/>
+  <path d="M722 400l60-86 60 86m-60-86v86" stroke="#0B1220" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M690 92c38-22 88-22 126 0" fill="none" stroke="#1E9A6D" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="852" cy="112" r="12" fill="#F2A900"/>
+</svg>

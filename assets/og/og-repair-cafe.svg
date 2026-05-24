@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">BenchFlow Queue OpenGraph image</title>
+  <desc id="desc">Friendly small repair business queue card with service bench illustration and title.</desc>
+  <rect width="1200" height="630" fill="#FFF8EE"/>
+  <rect x="0" y="0" width="520" height="630" fill="#0B1220"/>
+  <path d="M88 424h344v76H88z" fill="#D24C3A"/>
+  <path d="M88 396h344v42H88z" fill="#F2A900"/>
+  <rect x="148" y="254" width="118" height="88" rx="12" fill="#FFF8EE" stroke="#FFF8EE" stroke-width="8"/>
+  <rect x="170" y="276" width="74" height="34" rx="8" fill="#1E9A6D"/>
+  <path d="M300 336l90-90" stroke="#FFF8EE" stroke-width="18" stroke-linecap="round"/>
+  <path d="M368 226l42-42 30 30-42 42z" fill="#8A94A6"/>
+  <path d="M116 212h92m-46-46v92" stroke="#F2A900" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="382" cy="134" r="28" fill="#2F6FED"/>
+  <text x="600" y="220" fill="#0B1220" font-family="Inter, Arial, sans-serif" font-size="82" font-weight="800">BenchFlow</text>
+  <text x="600" y="318" fill="#0B1220" font-family="Inter, Arial, sans-serif" font-size="82" font-weight="800">Queue</text>
+  <text x="604" y="398" fill="#2F6FED" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">Intake. Triage. Keep every bench moving.</text>
+  <g fill="none" stroke="#8A94A6" stroke-width="8" stroke-linecap="round">
+    <path d="M609 476h124"/>
+    <path d="M783 476h76"/>
+    <path d="M909 476h144"/>
+  </g>
+</svg>

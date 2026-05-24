@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" role="img" aria-labelledby="title desc">
+  <title id="title">Items to bring to a repair cafe</title>
+  <desc id="desc">A tote bag with cables, a manual, and replacement parts.</desc>
+  <rect width="720" height="260" fill="#FFF8EE"/>
+  <g stroke="#0B1220" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M124 78h206l-22 142H146L124 78z" fill="#F2A900"/>
+    <path d="M174 78c0-36 24-58 53-58s53 22 53 58" fill="none"/>
+    <path d="M408 48h160c13 0 24 11 24 24v128c0 13-11 24-24 24H408z" fill="#FFFFFF"/>
+    <path d="M446 94h94M446 132h104M446 170h70" stroke="#8A94A6"/>
+    <path d="M128 172c36-20 74-19 114 0 32 16 62 16 90 0" fill="none" stroke="#2F6FED"/>
+    <path d="M292 156h42v36h-42z" fill="#FFFFFF"/>
+    <path d="M112 204h52m-26-26v52" stroke="#1E9A6D"/>
+    <circle cx="632" cy="82" r="30" fill="#D24C3A"/>
+    <path d="M621 82h22" stroke="#FFF8EE"/>
+  </g>
+</svg>

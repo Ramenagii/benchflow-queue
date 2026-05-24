@@ -1,0 +1,518 @@
+{
+  "events": [
+    {
+      "id": "evt-riverside-2026-06-14",
+      "slug": "riverside-service-hub",
+      "name": "BenchFlow Demo @ Riverside Service Hub",
+      "status": "upcoming",
+      "start": "2026-06-14T10:00:00+08:00",
+      "end": "2026-06-14T15:00:00+08:00",
+      "location": "Riverside Service Hub, Hall B",
+      "address": "21 River Walk, Singapore",
+      "capacity": 40,
+      "notes": "Bring one repair item, any power cables or chargers, and the model number if you have it.",
+      "organizer": "Riverside Small Business Repair Collective",
+      "faq": [
+        {
+          "question": "What does it cost?",
+          "answer": "The event is free. Guests may need to buy replacement parts if a fix needs them."
+        },
+        {
+          "question": "Can I bring large appliances?",
+          "answer": "Please bring small portable items only. Large appliances, hazardous items, and petrol-powered tools are out of scope."
+        },
+        {
+          "question": "Do you guarantee a fix?",
+          "answer": "No. Bench specialists diagnose and attempt repairs where safe, then record a clear next step or outcome."
+        }
+      ]
+    }
+  ],
+  "volunteers": [
+    {
+      "id": "vol-ana",
+      "name": "Ana",
+      "lanes": ["Electronics", "Small appliances"]
+    },
+    {
+      "id": "vol-bo",
+      "name": "Bo",
+      "lanes": ["Bikes", "Other"]
+    },
+    {
+      "id": "vol-mei",
+      "name": "Mei",
+      "lanes": ["Textiles", "Small appliances"]
+    }
+  ],
+  "tickets": [
+    {
+      "id": "BF-001",
+      "eventId": "evt-riverside-2026-06-14",
+      "guest": {"name": "Maya Tan", "contact": "maya@example.com", "consent": true},
+      "source": "signup",
+      "status": "done",
+      "waitMins": 12,
+      "category": "Electronics",
+      "brandModel": "Sony ICF-P26 radio",
+      "symptoms": "No sound unless the volume dial is pressed sideways.",
+      "safetyFlags": [],
+      "triage": {
+        "diagnosisGuess": "Dirty volume potentiometer",
+        "estimateMins": 25,
+        "partsNeeded": [],
+        "priority": "medium",
+        "notes": "Contact cleaner and retest."
+      },
+      "repairSession": {"assignedVolunteerId": "vol-ana", "durationMins": 24},
+      "outcome": {
+        "result": "fixed",
+        "summary": "Cleaned contacts, resoldered joint, tested OK.",
+        "partsAdvice": "",
+        "followUpLinks": []
+      }
+    },
+    {
+      "id": "BF-002",
+      "eventId": "evt-riverside-2026-06-14",
+      "guest": {"name": "Priya Nair", "contact": "priya@example.com", "consent": true},
+      "source": "signup",
+      "status": "done",
+      "waitMins": 16,
+      "category": "Textiles",
+      "brandModel": "Denim jacket",
+      "symptoms": "Pocket seam torn and one button missing.",
+      "safetyFlags": [],
+      "triage": {
+        "diagnosisGuess": "Simple fabric repair",
+        "estimateMins": 20,
+        "partsNeeded": ["button"],
+        "priority": "low",
+        "notes": "Use reinforced stitch near pocket corner."
+      },
+      "repairSession": {"assignedVolunteerId": "vol-mei", "durationMins": 18},
+      "outcome": {
+        "result": "fixed",
+        "summary": "Reinforced pocket seam and replaced button from spare kit.",
+        "partsAdvice": "",
+        "followUpLinks": []
+      }
+    },
+    {
+      "id": "BF-003",
+      "eventId": "evt-riverside-2026-06-14",
+      "guest": {"name": "Jon Lim", "contact": "jon@example.com", "consent": true},
+      "source": "walkin",
+      "status": "done",
+      "waitMins": 18,
+      "category": "Bikes",
+      "brandModel": "Tern Link C8",
+      "symptoms": "Rear brake squeals and rubs.",
+      "safetyFlags": ["brakes"],
+      "triage": {
+        "diagnosisGuess": "Cable tension and pad alignment",
+        "estimateMins": 30,
+        "partsNeeded": [],
+        "priority": "high",
+        "notes": "Safety-related, check before other bike work."
+      },
+      "repairSession": {"assignedVolunteerId": "vol-bo", "durationMins": 28},
+      "outcome": {
+        "result": "fixed",
+        "summary": "Aligned pads, tightened cable, test ride OK.",
+        "partsAdvice": "",
+        "followUpLinks": []
+      }
+    },
+    {
+      "id": "BF-004",
+      "eventId": "evt-riverside-2026-06-14",
+      "guest": {"name": "Helen Chua", "contact": "helen@example.com", "consent": true},
+      "source": "signup",
+      "status": "done",
+      "waitMins": 20,
+      "category": "Small appliances",
+      "brandModel": "Philips blender HR2056",
+      "symptoms": "Motor spins but jar blade does not turn.",
+      "safetyFlags": [],
+      "triage": {
+        "diagnosisGuess": "Worn drive coupler",
+        "estimateMins": 20,
+        "partsNeeded": ["drive coupler"],
+        "priority": "medium",
+        "notes": "Coupler teeth stripped."
+      },
+      "repairSession": {"assignedVolunteerId": "vol-ana", "durationMins": 14},
+      "outcome": {
+        "result": "needs-parts",
+        "summary": "Drive coupler stripped; replacement needed before repair can continue.",
+        "partsAdvice": "Buy a compatible HR2056 drive coupler and bring the jar base next session.",
+        "followUpLinks": ["https://www.ifixit.com/Guide"]
+      }
+    },
+    {
+      "id": "BF-005",
+      "eventId": "evt-riverside-2026-06-14",
+      "guest": {"name": "Rafiq Osman", "contact": "rafiq@example.com", "consent": true},
+      "source": "signup",
+      "status": "done",
+      "waitMins": 24,
+      "category": "Electronics",
+      "brandModel": "Nintendo Switch Lite",
+      "symptoms": "USB-C charge port loose; only charges at an angle.",
+      "safetyFlags": ["battery"],
+      "triage": {
+        "diagnosisGuess": "Damaged USB-C port requiring microsoldering",
+        "estimateMins": 15,
+        "partsNeeded": ["USB-C port"],
+        "priority": "high",
+        "notes": "Do not heat near battery at the service bench."
+      },
+      "repairSession": {"assignedVolunteerId": "vol-ana", "durationMins": 12},
+      "outcome": {
+        "result": "specialist",
+        "summary": "Likely USB-C port damage; repair requires microsoldering tools.",
+        "partsAdvice": "Ask repair shop to inspect port and battery health together.",
+        "followUpLinks": ["https://www.ifixit.com/Device/Nintendo_Switch_Lite"]
+      }
+    },
+    {
+      "id": "BF-006",
+      "eventId": "evt-riverside-2026-06-14",
+      "guest": {"name": "Grace Wong", "contact": "grace@example.com", "consent": true},
+      "source": "walkin",
+      "status": "done",
+      "waitMins": 28,
+      "category": "Other",
+      "brandModel": "Folding chair",
+      "symptoms": "Crack near the hinge after a fall.",
+      "safetyFlags": ["load-bearing"],
+      "triage": {
+        "diagnosisGuess": "Cracked load-bearing joint",
+        "estimateMins": 10,
+        "partsNeeded": [],
+        "priority": "high",
+        "notes": "Unsafe to continue using."
+      },
+      "repairSession": {"assignedVolunteerId": "vol-bo", "durationMins": 9},
+      "outcome": {
+        "result": "not-repairable",
+        "summary": "Cracked frame near load-bearing joint; unsafe to continue.",
+        "partsAdvice": "Dispose through bulky item collection or metal recycling if accepted.",
+        "followUpLinks": []
+      }
+    },
+    {
+      "id": "BF-007",
+      "eventId": "evt-riverside-2026-06-14",
+      "guest": {"name": "Alvin Goh", "contact": "alvin@example.com", "consent": true},
+      "source": "signup",
+      "status": "done",
+      "waitMins": 30,
+      "category": "Small appliances",
+      "brandModel": "Desk lamp",
+      "symptoms": "Lamp flickers when the cord moves.",
+      "safetyFlags": ["mains"],
+      "triage": {
+        "diagnosisGuess": "Loose strain relief and cracked plug",
+        "estimateMins": 35,
+        "partsNeeded": ["plug"],
+        "priority": "high",
+        "notes": "Replace plug from event stock."
+      },
+      "repairSession": {"assignedVolunteerId": "vol-mei", "durationMins": 32},
+      "outcome": {
+        "result": "fixed",
+        "summary": "Replaced plug, tightened strain relief, tested OK.",
+        "partsAdvice": "",
+        "followUpLinks": []
+      }
+    },
+    {
+      "id": "BF-008",
+      "eventId": "evt-riverside-2026-06-14",
+      "guest": {"name": "Siti Rahman", "contact": "siti@example.com", "consent": true},
+      "source": "signup",
+      "status": "done",
+      "waitMins": 34,
+      "category": "Bikes",
+      "brandModel": "Decathlon city bike",
+      "symptoms": "Grinding noise from rear wheel.",
+      "safetyFlags": [],
+      "triage": {
+        "diagnosisGuess": "Worn hub bearings",
+        "estimateMins": 25,
+        "partsNeeded": ["2x 608 bearings"],
+        "priority": "medium",
+        "notes": "Bearing roughness confirmed."
+      },
+      "repairSession": {"assignedVolunteerId": "vol-bo", "durationMins": 20},
+      "outcome": {
+        "result": "needs-parts",
+        "summary": "Needs 2x 608 bearings; bring parts and return next session.",
+        "partsAdvice": "Buy sealed 608-2RS bearings from a bike shop or hardware supplier.",
+        "followUpLinks": []
+      }
+    },
+    {
+      "id": "BF-009",
+      "eventId": "evt-riverside-2026-06-14",
+      "guest": {"name": "Marcus Lee", "contact": "marcus@example.com", "consent": true},
+      "source": "walkin",
+      "status": "repairing",
+      "waitMins": 42,
+      "category": "Electronics",
+      "brandModel": "Bluetooth speaker",
+      "symptoms": "Battery indicator flashes; speaker will not stay on.",
+      "safetyFlags": ["battery"],
+      "triage": {
+        "diagnosisGuess": "Loose battery connector",
+        "estimateMins": 30,
+        "partsNeeded": [],
+        "priority": "high",
+        "notes": "Open carefully and inspect swelling before reconnecting."
+      },
+      "repairSession": {"assignedVolunteerId": "vol-ana", "durationMins": null},
+      "outcome": {
+        "result": "fixed",
+        "summary": "Battery connector reseated and tested under load.",
+        "partsAdvice": "",
+        "followUpLinks": []
+      }
+    },
+    {
+      "id": "BF-010",
+      "eventId": "evt-riverside-2026-06-14",
+      "guest": {"name": "Nadia Ong", "contact": "nadia@example.com", "consent": true},
+      "source": "signup",
+      "status": "repairing",
+      "waitMins": 38,
+      "category": "Textiles",
+      "brandModel": "Sewing machine foot pedal",
+      "symptoms": "Foot pedal is intermittent and smells hot.",
+      "safetyFlags": ["mains"],
+      "triage": {
+        "diagnosisGuess": "Aged suppression capacitor",
+        "estimateMins": 35,
+        "partsNeeded": ["X2 safety capacitor"],
+        "priority": "high",
+        "notes": "Stop use until capacitor is replaced."
+      },
+      "repairSession": {"assignedVolunteerId": "vol-mei", "durationMins": null},
+      "outcome": {
+        "result": "needs-parts",
+        "summary": "Needs X2-rated suppression capacitor before safe reassembly.",
+        "partsAdvice": "Use only a correctly rated X2 safety capacitor.",
+        "followUpLinks": []
+      }
+    },
+    {
+      "id": "BF-011",
+      "eventId": "evt-riverside-2026-06-14",
+      "guest": {"name": "Victor Ho", "contact": "victor@example.com", "consent": true},
+      "source": "signup",
+      "status": "repairing",
+      "waitMins": 36,
+      "category": "Small appliances",
+      "brandModel": "DeLonghi coffee machine",
+      "symptoms": "Pump runs but no water reaches group head.",
+      "safetyFlags": ["mains", "pressure"],
+      "triage": {
+        "diagnosisGuess": "Blocked pump path or failed solenoid",
+        "estimateMins": 40,
+        "partsNeeded": ["solenoid valve"],
+        "priority": "medium",
+        "notes": "High-pressure appliance; limited service bench repair scope."
+      },
+      "repairSession": {"assignedVolunteerId": "vol-ana", "durationMins": null},
+      "outcome": {
+        "result": "specialist",
+        "summary": "Likely solenoid or pump path issue; refer to espresso machine technician.",
+        "partsAdvice": "Ask for quote before buying a pump or solenoid valve.",
+        "followUpLinks": []
+      }
+    },
+    {
+      "id": "BF-012",
+      "eventId": "evt-riverside-2026-06-14",
+      "guest": {"name": "Eileen Koh", "contact": "eileen@example.com", "consent": true},
+      "source": "signup",
+      "status": "up-next",
+      "waitMins": 48,
+      "category": "Small appliances",
+      "brandModel": "Tower fan",
+      "symptoms": "Oscillation stopped; fan still blows air.",
+      "safetyFlags": [],
+      "triage": {
+        "diagnosisGuess": "Broken oscillation gear",
+        "estimateMins": 25,
+        "partsNeeded": ["oscillation gear"],
+        "priority": "low",
+        "notes": "Fan is usable without oscillation."
+      },
+      "repairSession": {"assignedVolunteerId": null, "durationMins": null},
+      "outcome": {
+        "result": "needs-parts",
+        "summary": "Needs oscillation gear; fan can be used without oscillation meanwhile.",
+        "partsAdvice": "Bring model-specific gear or donor fan.",
+        "followUpLinks": []
+      }
+    },
+    {
+      "id": "BF-013",
+      "eventId": "evt-riverside-2026-06-14",
+      "guest": {"name": "Samir Patel", "contact": "samir@example.com", "consent": true},
+      "source": "walkin",
+      "status": "up-next",
+      "waitMins": 44,
+      "category": "Other",
+      "brandModel": "Umbrella",
+      "symptoms": "One rib popped loose.",
+      "safetyFlags": [],
+      "triage": {
+        "diagnosisGuess": "Loose rivet",
+        "estimateMins": 15,
+        "partsNeeded": ["small rivet"],
+        "priority": "low",
+        "notes": "Use spare rivet kit."
+      },
+      "repairSession": {"assignedVolunteerId": null, "durationMins": null},
+      "outcome": {
+        "result": "fixed",
+        "summary": "Rib rivet replaced and canopy tension checked.",
+        "partsAdvice": "",
+        "followUpLinks": []
+      }
+    },
+    {
+      "id": "BF-014",
+      "eventId": "evt-riverside-2026-06-14",
+      "guest": {"name": "Lina Teo", "contact": "lina@example.com", "consent": true},
+      "source": "signup",
+      "status": "up-next",
+      "waitMins": 52,
+      "category": "Electronics",
+      "brandModel": "Lenovo Yoga laptop",
+      "symptoms": "Intermittent power after liquid spill last month.",
+      "safetyFlags": ["battery"],
+      "triage": {
+        "diagnosisGuess": "Board corrosion under keyboard",
+        "estimateMins": 20,
+        "partsNeeded": [],
+        "priority": "high",
+        "notes": "Bench team can inspect only; likely board-level work."
+      },
+      "repairSession": {"assignedVolunteerId": null, "durationMins": null},
+      "outcome": {
+        "result": "specialist",
+        "summary": "Likely controller board issue; refer to repair shop list.",
+        "partsAdvice": "Back up data before further power-on attempts.",
+        "followUpLinks": []
+      }
+    },
+    {
+      "id": "BF-015",
+      "eventId": "evt-riverside-2026-06-14",
+      "guest": {"name": "Peter Chew", "contact": "peter@example.com", "consent": true},
+      "source": "signup",
+      "status": "waiting",
+      "waitMins": 62,
+      "category": "Bikes",
+      "brandModel": "Child scooter",
+      "symptoms": "Front wheel wobbles.",
+      "safetyFlags": ["steering"],
+      "triage": {
+        "diagnosisGuess": "Missing spacer and worn axle bolt",
+        "estimateMins": 20,
+        "partsNeeded": ["M8 axle bolt", "wheel spacer"],
+        "priority": "high",
+        "notes": "Do not ride until tightened."
+      },
+      "repairSession": {"assignedVolunteerId": null, "durationMins": null},
+      "outcome": {
+        "result": "needs-parts",
+        "summary": "Needs axle bolt and spacer before safe use.",
+        "partsAdvice": "Bring matching M8 axle bolt and spacer from scooter parts supplier.",
+        "followUpLinks": []
+      }
+    },
+    {
+      "id": "BF-016",
+      "eventId": "evt-riverside-2026-06-14",
+      "guest": {"name": "June Low", "contact": "june@example.com", "consent": true},
+      "source": "walkin",
+      "status": "waiting",
+      "waitMins": 32,
+      "category": "Small appliances",
+      "brandModel": "Plastic kettle",
+      "symptoms": "Cracked body near water level window.",
+      "safetyFlags": ["mains", "water"],
+      "triage": {
+        "diagnosisGuess": "Cracked insulated water vessel",
+        "estimateMins": 10,
+        "partsNeeded": [],
+        "priority": "high",
+        "notes": "Unsafe with water and mains power."
+      },
+      "repairSession": {"assignedVolunteerId": null, "durationMins": null},
+      "outcome": {
+        "result": "not-repairable",
+        "summary": "Water vessel cracked near mains components; unsafe to repair.",
+        "partsAdvice": "Recycle through e-waste collection if accepted.",
+        "followUpLinks": []
+      }
+    },
+    {
+      "id": "BF-017",
+      "eventId": "evt-riverside-2026-06-14",
+      "guest": {"name": "Amelia Ng", "contact": "amelia@example.com", "consent": true},
+      "source": "signup",
+      "status": "waiting",
+      "waitMins": 22,
+      "category": "Textiles",
+      "brandModel": "Backpack zipper",
+      "symptoms": "Slider no longer closes the zip.",
+      "safetyFlags": [],
+      "triage": {
+        "diagnosisGuess": "Worn zipper slider",
+        "estimateMins": 15,
+        "partsNeeded": ["No. 5 zipper slider"],
+        "priority": "low",
+        "notes": "Replace slider if matching size is available."
+      },
+      "repairSession": {"assignedVolunteerId": null, "durationMins": null},
+      "outcome": {
+        "result": "needs-parts",
+        "summary": "Needs No. 5 zipper slider in matching style.",
+        "partsAdvice": "Buy a No. 5 coil zipper slider or bring a donor bag.",
+        "followUpLinks": []
+      }
+    },
+    {
+      "id": "BF-018",
+      "eventId": "evt-riverside-2026-06-14",
+      "guest": {"name": "Daniel Wee", "contact": "daniel@example.com", "consent": true},
+      "source": "signup",
+      "status": "waiting",
+      "waitMins": 27,
+      "category": "Electronics",
+      "brandModel": "DJI drone controller",
+      "symptoms": "Left stick drifts even after calibration.",
+      "safetyFlags": [],
+      "triage": {
+        "diagnosisGuess": "Hall sensor or gimbal assembly failure",
+        "estimateMins": 20,
+        "partsNeeded": ["gimbal assembly"],
+        "priority": "medium",
+        "notes": "Calibration failed twice."
+      },
+      "repairSession": {"assignedVolunteerId": null, "durationMins": null},
+      "outcome": {
+        "result": "specialist",
+        "summary": "Controller stick module likely needs specialist calibration after replacement.",
+        "partsAdvice": "Use manufacturer service or specialist drone shop.",
+        "followUpLinks": []
+      }
+    }
+  ]
+}
